@@ -9,7 +9,6 @@ Welcome to the repository for Python programs related to the "CTEC 445: Fundamen
 
 1. [Caesar Cipher](#caesar-cipher)
 2. [Affine Cipher](#affine-cipher)
-3. [Usage](#usage)
 
 ---
 
@@ -21,3 +20,24 @@ The Caesar cipher is a simple substitution cipher where each letter in the plain
 
 ```bash
 python caesar_cipher.py
+```
+
+```bash
+plaintext:  <your_input>
+key:        <your_key>
+ciphertext: <encrypted_output>
+```
+
+## Affine Cipher
+
+The Affine cipher is a more complex substitution cipher that combines the Caesar cipher with modular arithmetic. It encrypts each letter using a mathematical function of the form (ax + b) mod 26, where a and b are the key parameters. The values of a and b must be chosen such that they are coprime with 26.
+
+### Usage
+
+```bash
+python affine_cipher.py
+```
+```bash
+[+] Plaintext: <your_input>
+[+] Encrypted Text: <encrypted_text>
+```
