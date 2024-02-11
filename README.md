@@ -19,7 +19,7 @@ The Caesar cipher is a simple substitution cipher where each letter in the plain
 ### Usage
 
 ```bash
-python caesar_cipher.py
+python caesar-cipher.py
 ```
 
 ```bash
@@ -35,7 +35,7 @@ The Affine cipher is a more complex substitution cipher that combines the Caesar
 ### Usage
 
 ```bash
-python affine_cipher.py
+python affine-cipher.py
 ```
 ```bash
 [+] Plaintext: <your_input>
