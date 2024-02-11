@@ -26,8 +26,8 @@ def affine_encrypt(plaintext, a, b):
 
 # Define the plaintext and key components.
 plaintext = input("[?] Enter text to encrypt: ")
-a = 3
-b = 10
+a = 9
+b = 20
 # Call the affine_encrypt function with the specified parameters.
 encrypted_text = affine_encrypt(plaintext, a, b)
 # Print the original plaintext, the key components, and the encrypted text.
