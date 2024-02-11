@@ -21,11 +21,11 @@ The Caesar cipher is a simple substitution cipher where each letter in the plain
 ```bash
 python caesar-cipher.py
 ```
-
 ```bash
-plaintext:  <your_input>
-key:        <your_key>
-ciphertext: <encrypted_output>
+Would you like to 
+ 1. Encrypt 
+ 2. Decrypt
+ 3. Close
 ```
 
 ## Affine Cipher
